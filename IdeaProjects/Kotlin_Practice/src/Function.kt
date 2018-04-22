@@ -19,6 +19,11 @@ fun main(args: Array<String>){
     //call overload method
     sum(a)
 
+    var sum = sumWithReturnValue(a,b)
+
+    print("add $a and $b using function that return its summation $sum")
+
+
     //we can not store a stringn to sum
 
     //sum = "string"
@@ -55,6 +60,13 @@ fun sum(a: Int,b:Int =10){
 
     //we can do arithmatic operation inside println function
     println("printing from sum function the sum of $a and $b is ${a+b}")
+}
+
+//function with return value
+fun sumWithReturnValue(a:Int, b:Int): Int{
+
+    //return sum of a and b
+    return a+b
 }
 
 //fun sum(a:Int , b:Int):Double{
