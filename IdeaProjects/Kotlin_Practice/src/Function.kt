@@ -60,6 +60,10 @@ fun sum(a: Int,b:Int =10){
 
     //we can do arithmatic operation inside println function
     println("printing from sum function the sum of $a and $b is ${a+b}")
+
+    var i:Int = 10;
+
+    println("jnu exam question $i ${i++} ${++i}")
 }
 
 //function with return value
@@ -68,6 +72,9 @@ fun sumWithReturnValue(a:Int, b:Int): Int{
     //return sum of a and b
     return a+b
 }
+
+//inline function
+fun add(a:Int, b:Int): Int = a+b
 
 //fun sum(a:Int , b:Int):Double{
  // return a+.5

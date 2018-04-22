@@ -1,5 +1,6 @@
 
-//printing hello from kotlin without creating any class kotlin will create class inside
+//
+// working from kotlin without creating any class kotlin will create class inside
 fun main(args: Array<String>){
 
     //creating variable as int type without declaring its type
